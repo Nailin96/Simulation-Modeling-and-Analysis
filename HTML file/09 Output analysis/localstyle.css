@@ -1,0 +1,41 @@
+/* tables 
+*****************/
+table{ 
+  overflow-y: auto;
+  border-collapse: collapse;
+}
+
+thead{
+  border:solid 3px;
+}
+
+.nextbtn_right{ 
+  position: absolute;
+  width:300px;
+  right:10px;
+  background-color: black;
+  color: #fff;
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 20px;
+}
+
+
+.nextbtn_left{
+  width:100px;
+  left:1rem;
+  margin-bottom: 1px;
+  background-color: transparent;
+  color: #fff;
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 20px;
+}
+
+
+td{
+  width: 480px;
+  min-width: 480px;
+  border: 1px solid black;
+  padding: 5px;
+  text-align:center;
+  height:50px;
+}

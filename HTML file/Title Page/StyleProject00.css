@@ -1,0 +1,120 @@
+table {
+	border-collapse: collapse;
+}
+
+th {
+	border: 1px solid black;
+	padding:5px;
+	text-align:center;
+}
+
+td {
+	border: 1px solid black;
+	padding:5px;
+	text-align:left;
+}
+
+body {
+	font-family: Calibri;
+}
+
+table.center {
+	padding: 1rem 1.5rem;
+	margin-top: 3rem;
+	margin-bottom: 1rem;
+  	margin-left:auto;
+  	margin-right:auto;
+  	text-align: center;
+}
+
+/* Buttons
+--------------------------------------------------*/
+
+.btn-outline {
+  color: #000;
+  background-color: #fff;
+  border-color: #000;
+  border: 2px solid;
+  padding: 4px;
+}
+
+.btn-outline:hover {
+  color:#fff;
+  background-color: #5B5B5B;
+  border-color: #000;
+}
+
+.btn-right {
+  color: #000;
+  background-color: #fff;
+  border-color: #000;
+  border: 2px solid;
+  color: black;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  margin-right: 0;
+}
+
+.btn-right span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.btn-right span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.btn-right:hover span {
+  padding-right: 25px;
+}
+
+.btn-right:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.btn-left {
+  color: #000;
+  background-color: #fff;
+  border-color: #000;
+  border: 2px solid;
+  color: black;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  margin-left: 0;
+}
+
+.btn-left span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.btn-left span:after {
+  content: '\00ab';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: -2px;
+  transition: 0.5s;
+}
+
+.btn-left:hover span {
+  padding-left: 25px;
+}
+
+.btn-left:hover span:after {
+  opacity: 1;
+  left: 0;
+}
+

@@ -1,0 +1,174 @@
+/*headers
+*****************/
+h2{
+  padding:auto;
+  margin-top:10px;
+  margin-left: 1rem;
+  font-size:40px;
+}
+
+h3{
+  font-size:25px;
+}
+.divcenter{
+  text-align: center;
+}
+
+p{
+  text-align: justify;
+}
+
+/* tables 
+*****************/
+th{
+  min-width: 70px;
+  border:solid 1px;
+  background-color: #fdf6b4;
+  color: #000;
+  padding:5px;
+}
+
+td{
+  height: 40px;
+  border: 1px solid black;
+  padding:5px;
+}
+
+table {
+  border-collapse: collapse;
+  text-align: center;
+  margin-top: 25px;
+  background-color: #fff;
+}
+
+.table-hover tbody tr.hoverable:hover td:not(.attribute_list){
+  background-color: #fefad6;
+}
+
+
+.first_col_header{
+}
+
+.attribute_list{
+  background-color: #cbffcb;
+  min-width: 200px;
+}
+
+.relative_importance{
+  background-color: #d9d9d9 !important;
+}
+
+#header_labels th{
+  font-weight: normal;
+}
+
+.rightborder{
+  border-right:solid 2px;
+}
+
+.leftborder{
+  border-left:solid 2px;
+}
+
+.topborder{
+  border-top:solid 2px;
+}
+
+.bottomborder{
+  border-bottom:solid 2px;
+}
+
+.blank{
+  border:none !important;
+  background-color: #fefad6;
+}
+
+.lastrow td{
+  height:10px;
+  padding: 0px;
+}
+
+th.reactosis{
+  background-color: #fbed6a;
+}
+
+td.reactosis{
+  background-color: #fcf39c;
+}
+
+
+/* containers
+****************/
+.divcenter{
+  text-align: center;
+}
+
+.wrapper{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1300px;
+}
+
+.container{
+}
+
+#pughtable{
+  display:flex;
+  overflow-x: auto;
+  height: 400px;
+}
+
+#final_recommendation{
+  width: 500px;
+  margin-right: 0px;
+}
+
+#spacer{
+  width: 600px;
+}
+
+#performance_table{
+  margin-bottom: 30px;
+}
+
+
+/* buttons 
+**************/
+.nextbtn_right{
+  position: absolute;
+  width:100px;
+  top:80%;
+  right:5rem;
+  background-color: transparent;
+  color: #000;
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 30px;
+}
+
+.nextbtn_left{s
+  width:100px;
+  left:1rem;
+  margin-bottom: 1px;
+  background-color: transparent;
+  color: #000;
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 20px;
+}
+
+#scorecard_btn{
+  position: absolute;
+  top:4rem;
+  font-size: 15px;
+  width:100px;
+  margin-left: 10px;
+  text-align: left;
+}
+
+#integratedconcept_btn{
+  position: absolute;
+  top:6rem;
+  font-size: 15px;
+  width:220px;
+  margin-left: 10px;
+  text-align:left;
+}

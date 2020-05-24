@@ -1,0 +1,39 @@
+/* Integrated Concepts CSS */
+
+/*headers
+*****************/
+h2{
+  padding:auto;
+  margin-top:10px;
+  margin-left: 1rem;
+  font-size:40px;
+}
+
+h3{
+  margin-top:0px;
+  padding:10px;
+  border-bottom: solid 1px;
+  background: #78bda7;
+}
+
+.nextbtn_left{
+  width:100px;
+  left:1rem;
+  margin-bottom: 1px;
+  background-color: transparent;
+  color: #fff;
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 20px;
+}
+
+
+/* containers
+****************/
+.divcenter{
+  text-align: center;
+}
+
+.container{
+  float:left;
+  border:solid 1px;
+}
